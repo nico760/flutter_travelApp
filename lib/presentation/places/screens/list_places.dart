@@ -50,7 +50,8 @@ class ListPlaces extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Places in Medellin'),),
+        centerTitle: true,
+        title: const Text('Places in Medellin'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),

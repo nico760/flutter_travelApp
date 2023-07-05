@@ -35,7 +35,12 @@ class PlaceCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     const Icon(Icons.location_on, color: Colors.black,),
-                    Text(name, style: const TextStyle(color: Colors.black),)
+                    Text(name, style: const TextStyle(
+                      fontSize: 14,
+                      color: Colors.black,
+                      fontWeight: FontWeight.normal,
+                      decoration: TextDecoration.none
+                      ),)
                   ],
                 ),
               ),

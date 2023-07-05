@@ -15,7 +15,8 @@ class LocationDetails extends StatelessWidget {
     final path = place.path;
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text(name)),
+        centerTitle: true,
+        title: Text(name),
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
